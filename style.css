@@ -1,0 +1,203 @@
+*{
+    margin: 0; 
+    padding: 0; 
+}
+
+h1{
+    font-family : 'Pacifico', cursive;
+    text-align: center; 
+    background-color: #3C4EB7; 
+    font-size: 50px; 
+    color: #E04ACE; 
+}
+
+header {
+    height: 120px; 
+    background-color: #3C4EB7; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+nav {
+    display: flex; 
+    justify-content: space-around; 
+    background-color: #BFC3FA; 
+    height: 100px; 
+    align-items: center; 
+}
+
+nav a {
+    font-family: 'Oswald', sans-serif;
+    font-style: bold; 
+    font-size: 25px; 
+    color: #3C4EB7; 
+    text-decoration: none; 
+
+}
+
+nav a:hover {
+    color: #E04ACE; 
+}
+
+#about {
+    background-image: url(https://www.rts.ch/2021/06/28/16/19/11605556.image?w=960&h=384); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position : center; 
+    min-height: 450px;
+    display: flex; 
+    align-items: center;   
+}
+
+.about-banner { 
+    background-color: #3C4EB7; 
+    margin-left: 40px; 
+    margin-top: 40px; 
+    padding: 20px; 
+    border-radius: 4px;
+}
+
+
+.about-banner h2 {
+    font-family : 'Pacifico', cursive;
+    color: #BFC3FA; 
+    font-size: 30px; 
+}
+
+.about-banner h3 {
+
+    font-family: 'Oswald', sans-serif;
+    color: rgb(218, 172, 219); 
+    font-size: 20px; 
+}
+
+#ourposters  { 
+    background-color: #BFC3FA;
+    padding-top: 50px; 
+    padding-bottom: 40px; 
+}
+
+#ourposters h2 {
+    font-family: 'Oswald', sans-serif;
+    text-align: center; 
+    font-size: 40px; 
+    color: #3C4EB7; 
+    
+}
+
+#ourposters h3 {
+    font-family: 'Oswald', sans-serif; 
+    text-align: center; 
+    color: #682260; 
+    font-size: 20px; 
+
+}
+
+.poster-images {
+    
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    margin: 40px 30px; 
+    background-color: #BFC3FA;
+
+}
+
+.poster-images img {
+    width: auto; 
+    height: 250px;
+    margin-top: 20px;
+    margin-left: 20px; 
+    margin-right: 20px; 
+} 
+
+.poster-images figcaption {
+    text-align: center;
+    font-family : 'Pacifico', cursive; 
+    color: #381a34; 
+}
+
+#ourteam {
+    padding: 50px 0; 
+    background-color: #4f5fb9; 
+}
+
+#ourteam h2 {
+    font-family: 'Oswald', sans-serif;
+    text-align: center; 
+    font-size: 40px; 
+    color: #E04ACE; 
+}
+
+.ourteam-images{
+    display: flex; 
+    justify-content: center; 
+    flex-wrap: wrap; 
+}
+
+.ourteam-images img {
+    height: 200px; 
+    width: 190px; 
+    margin-top: 50px; 
+    margin-left: 50px; 
+    margin-right: 50px; 
+    margin-bottom: 20px; 
+    border-radius: 10px;
+}
+
+.ourteam-images figcaption {
+    text-align: center;
+    font-family : 'Pacifico', cursive; 
+    color: #BFC3FA; 
+}
+
+.contact {
+    background-color: #BFC3FA; 
+    height: 100px; 
+    padding: 30px 0; 
+}
+
+.contact h2 { 
+    font-family: 'Oswald', sans-serif;
+    text-align: center; 
+    font-size: 40px; 
+    color: #3C4EB7; 
+    
+}
+
+.contact h3 {
+    font-family: 'Oswald', sans-serif; 
+    text-align: center; 
+    color: #682260; 
+    font-size: 20px; 
+    margin: 10px 0; 
+}
+
+@media screen and (max-width: 400px) {
+
+    h1 {
+        font-size: 40px; 
+    }
+
+    nav a { 
+        font-size: 20px; 
+    }
+
+    #about {
+        min-height: 400px; 
+    }
+
+    .about-banner h2 {
+        font-size: 25px; 
+    }
+    
+    .about-banner h3 {
+        font-size: 15px; 
+    }
+
+    .about-banner { 
+        margin-left: 20px; 
+    }
+
+}
